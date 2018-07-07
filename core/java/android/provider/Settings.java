@@ -4233,6 +4233,15 @@ public final class Settings {
                 "mute_annoying_notifications_threshold";
 
         /**
+         * Whether allowing pocket service to register sensors and dispatch informations.
+         *   0 = disabled
+         *   1 = enabled
+         * @author Carlo Savignano
+         * @hide
+         */
+        public static final String POCKET_JUDGE = "pocket_judge";
+
+        /**
          * Whether to display roaming indicator for roaming signal connection
          * @hide
          */
